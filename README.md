@@ -35,6 +35,6 @@ My favourite language by far is C, even though I'm better at JS. I'd love to col
 
 Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat about programming, games or any other stuff!
 
-Fun fact! I'm also a community manager for Escape The Backrooms. <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white"/></a>
+Fun fact! I'm also a community manager for Escape The Backrooms. <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <img src="https://raw.githubusercontent.com/MattFor/MattFor/output/snake.svg" alt="Snake"/>
