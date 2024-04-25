@@ -33,4 +33,4 @@ My favourite language by far is C, even though I'm better at JS. I'd love to col
 
 Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat about programming, games or any other stuff!
 
-<img src="https://raw.githubusercontent.com/MattFor/MattFor/data/snake.svg" alt="Snake" />
+<img src="https://raw.githubusercontent.com/MattFor/MattFor/output/snake.svg" alt="Snake" />
