@@ -2,9 +2,12 @@
 <h3 align="center">🚀 Creator of Relaxy and emoji-mixer!</h3>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" style="margin-right: 10px;" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MattFor&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" style="margin-bottom: 10px;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MattFor&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+  </div>
 </div>
+
 
 
 <p align="center">
@@ -31,3 +34,5 @@ My favourite language by far is C, even though I'm better at JS. I'd love to col
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
 Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat about programming, games or any other stuff!
+
+<img src="https://raw.githubusercontent.com/MattFor/MattFor/data/snake.svg" alt="Snake" />
