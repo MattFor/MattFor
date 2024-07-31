@@ -1,9 +1,10 @@
 <h1 align="center">👋 Welcome, I'm MattFor</h1>
-<h3 align="center">🚀 Creator of Relaxy and emoji-mixer!</h3>
+<h3 align="center">🚀 Creator of Relaxy and emoji-mixer</h3>
 
 ### 🧑‍💻 About Me
 
 Still in education, working on numerous projects, constantly learning and improving.
+
 My preferred language by far is C, even though I use JS the most. I'm open to collaborate and contribute to other projects.
 
 ### 🌱 Current Projects
@@ -26,7 +27,7 @@ My preferred language by far is C, even though I use JS the most. I'm open to co
 
 Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat.
 
-Fun fact!, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
+Fun fact, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" style="margin-bottom: 10px;"/> -->
