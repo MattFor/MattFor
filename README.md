@@ -3,8 +3,8 @@
 
 ### 🧑‍💻 About Me
 
-I'm still in school, working on numerous projects and constantly learning and improving!
-My favourite language by far is C, even though I'm better at JS. I'd love to collaborate with others on some fun projects!
+Still in education, working on numerous projects, constantly learning and improving.
+My preferred language by far is C, even though I use JS the most. I'm open to collaborate and contribute to other projects.
 
 ### 🌱 Current Projects
 
@@ -12,7 +12,7 @@ My favourite language by far is C, even though I'm better at JS. I'd love to col
 
 - [**emoji-mixer**](https://www.npmjs.com/package/emoji-mixer): A module designed to generate Google Emoji Kitchen urls based on ASCII characters.
 
-- [**RayTracer**](https://github.com/MattFor/RayTracer): A working RayTracer written in C++ with ambitious expansion plans.
+- [**RayTracer**](https://github.com/MattFor/RayTracer): A working RayTracer written in C++.
 
 <!-- <div align="center">
   <img src="https://streak-stats.demolab.com?user=MattFor&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220"/>
@@ -24,9 +24,9 @@ My favourite language by far is C, even though I'm better at JS. I'd love to col
 - Add me on [Steam](https://steamcommunity.com/id/MattFor/)
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
-Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat about programming, games or any other stuff!
+Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat.
 
-Fun fact! I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
+Fun fact!, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" style="margin-bottom: 10px;"/> -->
