@@ -1,12 +1,6 @@
 <h1 align="center">👋 Welcome, I'm MattFor</h1>
 <h3 align="center">🚀 Creator of Relaxy and emoji-mixer</h3>
 
-### 🧑‍💻 About Me
-
-Still in education, working on numerous projects, constantly learning and improving.
-
-My preferred language by far is C, even though I use JS the most. I'm open to collaborate and contribute to other projects.
-
 ### 🌱 Current Projects
 
 - [**Relaxy**](https://relaxy.xyz): A multipurpose discord bot with a long history of development.
@@ -25,7 +19,7 @@ My preferred language by far is C, even though I use JS the most. I'm open to co
 - Add me on [Steam](https://steamcommunity.com/id/MattFor/)
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
-Should you want to, feel free to reach out if you have any questions, collaboration questions, or just want to chat.
+Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just a need to chat.
 
 Fun fact, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
