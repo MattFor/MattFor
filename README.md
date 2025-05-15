@@ -1,11 +1,18 @@
 <h1 align="center">👋 Welcome, I'm MattFor</h1>
 <h3 align="center">🚀 Creator of Relaxy and emoji-mixer</h3>
 
+### 🧑‍💻 About Me
+
+Still in education, working on numerous projects, constantly learning and improving.
+My preferred language by far is C, even though I use JS the most. I'm open to collaborate and contribute to other projects.
+
 ### 🌱 Current Projects
 
 - [**Relaxy**](https://relaxy.xyz): A multipurpose discord bot with a long history of development.
 
 - [**emoji-mixer**](https://www.npmjs.com/package/emoji-mixer): A module designed to generate Google Emoji Kitchen urls based on ASCII characters.
+
+- [**Path-Variable-Editor**](https://github.com/MattFor/Path-Variable-Editor): A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit.
 
 - [**RayTracer**](https://github.com/MattFor/RayTracer): A working RayTracer written in C++.
 
@@ -19,7 +26,7 @@
 - Add me on [Steam](https://steamcommunity.com/id/MattFor/)
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
-Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just a need to chat.
+hould you want to, feel free to reach out if you have any questions, collaboration ideas, or just a need to chat.
 
 Fun fact, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
