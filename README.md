@@ -16,6 +16,8 @@ My preferred language by far is C, even though I use JS the most. I'm open to co
 
 - [**RayTracer**](https://github.com/MattFor/RayTracer): A working RayTracer written in C++.
 
+- [**Neural Network C++**](https://github.com/MattFor/NeuralNetwork): Fast C++ neural network written without specialized libraries, customizable.
+
 <!-- <div align="center">
   <img src="https://streak-stats.demolab.com?user=MattFor&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220"/>
 </div> -->
@@ -26,7 +28,7 @@ My preferred language by far is C, even though I use JS the most. I'm open to co
 - Add me on [Steam](https://steamcommunity.com/id/MattFor/)
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
-hould you want to, feel free to reach out if you have any questions, collaboration ideas, or just a need to chat.
+Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just want to chat.
 
 Fun fact, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
