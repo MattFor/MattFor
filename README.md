@@ -13,6 +13,8 @@ Lately, I’ve been especially interested in:
 - machine learning (not the genAI kind)
 - performance-oriented systems  
 
+---
+
 ### 🌱 My Favourite Projects
 
 #### 🤖 Relaxy
