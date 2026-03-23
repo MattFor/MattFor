@@ -1,5 +1,5 @@
 <h1 align="center">👋 Welcome, I'm MattFor</h1>
-<h3 align="center">⚙️ Creator of Relaxy, LogEye and emoji-mixer<  </h3>
+<h3 align="center">⚙️ Creator of Relaxy, LogEye and emoji-mixer ⚙️</h3>
 
 ### 🧑‍💻 About Me
 
