@@ -4,19 +4,57 @@
 ### 🧑‍💻 About Me
 
 Still in education, working on numerous projects, constantly learning and improving.
-My preferred language by far is C, even though I use JS the most. I'm open to collaborate and contribute to other projects.
+My preferred languages by far are C and/or Rust, even though I use JS and Python the most. I'm open to collaborate and contribute to other projects.
 
-### 🌱 Current Projects
+Lately, I’ve been especially interested in:
+- developer tooling  
+- runtime introspection  
+- performance-oriented systems  
 
-- [**Relaxy**](https://relaxy.xyz): A multipurpose discord bot with a long history of development.
+---
 
-- [**emoji-mixer**](https://www.npmjs.com/package/emoji-mixer): A module designed to generate Google Emoji Kitchen urls based on ASCII characters.
+### 🌱 My Favourite Projects
 
-- [**Path-Variable-Editor**](https://github.com/MattFor/Path-Variable-Editor): A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit.
+#### 🤖 Relaxy
+> Multipurpose Discord bot with a long development history of over 7 years
 
-- [**RayTracer**](https://github.com/MattFor/RayTracer): A working RayTracer written in C++.
+- Moderation, utilities, automation  
+- Built and maintained over time with real users  
 
-- [**Neural Network C++**](https://github.com/MattFor/NeuralNetwork): Fast C++ neural network written without specialized libraries, customizable.
+👉 https://relaxy.xyz
+
+---
+
+#### 🔍 LogEye
+> Frictionless runtime introspection for Python
+
+- Tracks variable state, mutations, and function execution automatically  
+- Designed for debugging, learning, and rapid prototyping  
+- No setup, simply just import and go  
+
+👉 https://pypi.org/project/logeye/
+
+---
+
+#### 🧩 emoji-mixer
+> Generate Google Emoji Kitchen combinations programmatically
+
+👉 https://www.npmjs.com/package/emoji-mixer
+
+---
+
+#### 🛠️ Other Projects
+
+- 🧪 [Path Variable Editor](https://github.com/MattFor/Path-Variable-Editor)  
+  -> A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit
+
+- 🎯 [RayTracer (C++)](https://github.com/MattFor/RayTracer)  
+  -> From-scratch rendering experiment  
+
+- 🧠 [Neural Network (C++)](https://github.com/MattFor/NeuralNetwork)  
+  -> Lightweight, fast C++ neural network written without specialized libraries, very customizable
+
+---
 
 <!-- <div align="center">
   <img src="https://streak-stats.demolab.com?user=MattFor&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220"/>
@@ -30,7 +68,9 @@ My preferred language by far is C, even though I use JS the most. I'm open to co
 
 Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just want to chat.
 
-Fun fact, I'm also a community manager for [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
+### 🌍 Community
+
+I'm the community manager for  [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" style="margin-bottom: 10px;"/> -->
