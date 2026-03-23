@@ -7,11 +7,11 @@ Still in education, working on numerous projects, constantly learning and improv
 My preferred languages by far are C and/or Rust, even though I use JS and Python the most. I'm open to collaborate and contribute to other projects.
 
 Lately, I’ve been especially interested in:
+- Rust
 - developer tooling  
 - runtime introspection  
+- machine learning (not the genAI kind)
 - performance-oriented systems  
-
----
 
 ### 🌱 My Favourite Projects
 
@@ -23,8 +23,6 @@ Lately, I’ve been especially interested in:
 
 👉 https://relaxy.xyz
 
----
-
 #### 🔍 LogEye
 > Frictionless runtime introspection for Python
 
@@ -34,14 +32,11 @@ Lately, I’ve been especially interested in:
 
 👉 https://pypi.org/project/logeye/
 
----
-
 #### 🧩 emoji-mixer
 > Generate Google Emoji Kitchen combinations programmatically
 
 👉 https://www.npmjs.com/package/emoji-mixer
 
----
 
 #### 🛠️ Other Projects
 
