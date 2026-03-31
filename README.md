@@ -1,10 +1,14 @@
 <h1 align="center">👋 Welcome, I'm MattFor</h1>
 <h3 align="center">⚙️ Creator of Relaxy, LogEye and emoji-mixer ⚙️</h3>
 
+<h3 align="center">Building tools for understanding, not just writing, code.</h3>
+
 ### 🧑‍💻 About Me
 
-Still in education, working on numerous projects, constantly learning and improving.
-My preferred languages by far are C and/or Rust, even though I use JS and Python the most. I'm open to collaborate and contribute to other projects.
+Still in education, working on numerous projects, constantly learning and improving.  
+My preferred languages by far are C and/or Rust, even though I use JS and Python the most.  
+I've got a bias towards low-level thinking even in high-level languages ;D  
+I'm open to collaborate and contribute to other projects.  
 
 Lately, I’ve been especially interested in:
 - Rust
@@ -17,15 +21,7 @@ Lately, I’ve been especially interested in:
 
 ### 🌱 My Favourite Projects
 
-#### 🤖 Relaxy
-> Multipurpose Discord bot with a long development history of over 7 years
-
-- Moderation, utilities, automation  
-- Built and maintained over time with real users  
-
-👉 https://relaxy.xyz
-
-#### 🔍 LogEye
+#### 🔍 [LogEye (Python)](https://github.com/MattFor/LogEye)
 > Frictionless runtime introspection for Python
 
 - Tracks variable state, mutations, and function execution automatically  
@@ -34,7 +30,21 @@ Lately, I’ve been especially interested in:
 
 👉 https://pypi.org/project/logeye/
 
-#### 🧩 emoji-mixer
+#### 🤖 [Relaxy (JavaScript/Python)](https://github.com/MattFor/Relaxy-public-showcase)
+> Multipurpose Discord bot with a long development history of over 7 years 
+
+- Moderation, utilities, automation  
+- Custom music engine  
+- Custom Ticket System
+- Multithreaded MongoDB handling
+- Optimizations at the V8 engine level
+- Self-Monitoring system that ensures no downtime  
+  (real-time error detection, custom JS module loader)
+- 200 000+ Users  
+
+👉 https://relaxy.xyz
+
+#### 🧩 [emoji-mixer (JavaScript)](https://github.com/MattFor/emoji-mixer)
 > Generate Google Emoji Kitchen combinations programmatically
 
 👉 https://www.npmjs.com/package/emoji-mixer
@@ -42,7 +52,7 @@ Lately, I’ve been especially interested in:
 
 #### 🛠️ Other Projects
 
-- 🧪 [Path Variable Editor](https://github.com/MattFor/Path-Variable-Editor)  
+- 🧪 [Path Variable Editor (Python)](https://github.com/MattFor/Path-Variable-Editor)  
   -> A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit
 
 - 🎯 [RayTracer (C++)](https://github.com/MattFor/RayTracer)  
@@ -50,6 +60,9 @@ Lately, I’ve been especially interested in:
 
 - 🧠 [Neural Network (C++)](https://github.com/MattFor/NeuralNetwork)  
   -> Lightweight, fast C++ neural network written without specialized libraries, very customizable
+
+- 📜 [hprint (C++)](https://github.com/MattFor/hprint)  
+  -> Minimal header-only C++ library for printing centered terminal headers
 
 ---
 
@@ -71,7 +84,7 @@ I'm the community manager for  [Escape The Backrooms](https://discord.gg/fancyga
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" style="margin-bottom: 10px;"/> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MattFor&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150"/>
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MattFor&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150"/> -->
 </div>
 
 <p align="center">
