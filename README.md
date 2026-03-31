@@ -31,16 +31,16 @@ Lately, I’ve been especially interested in:
 👉 https://pypi.org/project/logeye/
 
 #### 🤖 [Relaxy (JavaScript/Python)](https://github.com/MattFor/Relaxy-public-showcase)
-> Multipurpose Discord bot with a long development history of over 7 years 
+> Long-running Discord bot platform built and maintained over 7+ years around user lead requirements  
 
-- Moderation, utilities, automation  
-- Custom music engine  
-- Custom Ticket System
-- Multithreaded MongoDB handling
-- Optimizations at the V8 engine level
-- Self-Monitoring system that ensures no downtime  
+- 200 000+ Users
+- Moderation, utility, automation, and community management tools  
+- Music system with custom playback, queue, and filtering features  
+- Ticketing, forum, reminder, and reaction-based workflows  
+- MongoDB handling with caching and worker-based processing  
+- Performance-focused architecture with V8 engine level optimizations
+- Self-monitoring and self-repair systems for high uptime
   (real-time error detection, custom JS module loader)
-- 200 000+ Users  
 
 👉 https://relaxy.xyz
 
