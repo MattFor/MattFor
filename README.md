@@ -72,15 +72,15 @@ Lately, I’ve been especially interested in:
 
 ### 📫 Get in Touch
 
+- Write to me mattfor@relaxy.xyz
 - Add me on discord @ mattfor / MattFor#9884 (originally)
-- Add me on [Steam](https://steamcommunity.com/id/MattFor/)
 - Check out [Relaxy's Website!](https://relaxy.xyz)
 
 Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just want to chat.
 
 ### 🌍 Community
 
-I'm the community manager for  [Escape The Backrooms](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
+I'm the community manager for [Escape The Backrooms!](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=MattFor&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" style="margin-bottom: 10px;"/> -->
