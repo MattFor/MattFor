@@ -61,8 +61,8 @@ Lately, I’ve been especially interested in:
 - 🎯 [RayTracer (C++)](https://github.com/MattFor/RayTracer)  
   -> From-scratch rendering experiment  
 
-- 🧠 [Neural Network (C++)](https://github.com/MattFor/NeuralNetwork)  
-  -> Lightweight, fast C++ neural network written without specialized libraries, very customizable
+- 🧠 [Multithreaded Neural Network (C++)](https://github.com/MattFor/NeuralNetwork)  
+  -> Lightweight, fast C++ neural network written without specialized libraries completely from scratch, very customizable
 
 - 📜 [hprint (C++)](https://github.com/MattFor/hprint)  
   -> Minimal header-only C++ library for printing centered terminal headers
