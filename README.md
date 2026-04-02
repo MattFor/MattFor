@@ -47,6 +47,9 @@ Lately, I’ve been especially interested in:
 #### 🧩 [emoji-mixer (JavaScript)](https://github.com/MattFor/emoji-mixer)
 > Generate Google Emoji Kitchen combinations programmatically
 
+- Used by over 1200+ projects
+- Incredibly easy to use
+
 👉 https://www.npmjs.com/package/emoji-mixer
 
 
