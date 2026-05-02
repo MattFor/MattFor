@@ -86,8 +86,8 @@ Should you want to, feel free to reach out if you have any questions, collaborat
 I'm the community manager for [Escape The Backrooms!](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 <div align="center">
-  <img src="./profile/top-langs.svg" height="150" />
-  <img src="./profile/stats.svg" height="150" />
+  <img src="./profile/top-langs.svg" width="460" />
+  <img src="./profile/stats.svg" width="460" />
 </div>
 
 <p align="center">
