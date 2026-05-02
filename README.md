@@ -90,8 +90,9 @@ I'm the community manager for [Escape The Backrooms!](https://discord.gg/fancyga
   <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MattFor&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150"/> -->
 </div>
 
+![Top Languages](./profile/top-langs.svg)
+![Stats](./profile/stats.svg)
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mattfor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
-
-<!-- <img src="https://raw.githubusercontent.com/MattFor/MattFor/output/snake.svg" alt="Snake"/> -->
