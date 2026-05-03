@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MattFor's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 34, Total Commits  : 2395, Total PRs: 0, Total Issues: 1, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 34, Total Commits  : 2400, Total PRs: 0, Total Issues: 1, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 171.95072787497307;
+        stroke-dashoffset: 171.92317512968188;
       }
     }
   
