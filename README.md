@@ -83,7 +83,7 @@ Should you want to, feel free to reach out if you have any questions, collaborat
 
 ## Other Fun Facts
 
-I'm the community manager for [Escape The Backrooms!](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
+I'm the community manager for [Escape The Backrooms](https://store.steampowered.com/app/1943950/Escape_the_Backrooms/) check out our [Discord Server!](https://discord.gg/fancygames).  <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
 ![Top Languages](./profile/top-langs.svg)
 ![Stats](./profile/stats.svg)
