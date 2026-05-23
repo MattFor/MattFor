@@ -1,4 +1,4 @@
-<h1 align="center"> Welcome, I'm MattFor</h1>
+<h1 align="center"> Hello! I'm MattFor</h1>
 <h3 align="center">⚙️ Creator of Relaxy, LogEye and emoji-mixer ⚙️</h3>
 
 <h3 align="center">Building tools for understanding, not just writing, code.</h3>
@@ -21,7 +21,7 @@ Lately, I’ve been especially interested in:
 
 ## My Best Projects
 
-#### [LogEye (Python)](https://github.com/MattFor/LogEye)
+### [LogEye (Python)](https://github.com/MattFor/LogEye)
 > Frictionless runtime introspection for Python
 
 - Tracks variable state, mutations, and function execution automatically  
@@ -30,7 +30,7 @@ Lately, I’ve been especially interested in:
 
 Check it out here: https://pypi.org/project/logeye/
 
-#### [Relaxy (JavaScript/Python)](https://github.com/MattFor/Relaxy-public-showcase)
+### [Relaxy (JavaScript/Python)](https://github.com/MattFor/Relaxy-public-showcase)
 > Long-running Discord bot platform built and maintained over 7+ years around user lead requirements  
 
 - 200 000+ Users
@@ -44,7 +44,7 @@ Check it out here: https://pypi.org/project/logeye/
 
 Check it out here: https://relaxy.xyz
 
-#### [emoji-mixer (JavaScript)](https://github.com/MattFor/emoji-mixer)
+### [emoji-mixer (JavaScript)](https://github.com/MattFor/emoji-mixer)
 > Generate Google Emoji Kitchen combinations programmatically
 
 - Used by over 1200+ projects, over 60 000 downloads
@@ -53,7 +53,7 @@ Check it out here: https://relaxy.xyz
 Check it out here: https://www.npmjs.com/package/emoji-mixer
 
 
-#### Other Projects
+### Other Projects
 
 - [Path Variable Editor (Python)](https://github.com/MattFor/Path-Variable-Editor)  
   A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit
