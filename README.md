@@ -3,7 +3,7 @@
 
 <h3 align="center">Building tools for understanding, not just writing, code.</h3>
 
-### About Me
+## About Me
 
 Still in education, working on numerous projects, constantly learning and improving.  
 My preferred languages by far are C and/or Rust, even though I use JS and Python the most.  
@@ -19,7 +19,7 @@ Lately, I’ve been especially interested in:
 
 ---
 
-### My Best Projects
+## My Best Projects
 
 #### [LogEye (Python)](https://github.com/MattFor/LogEye)
 > Frictionless runtime introspection for Python
@@ -28,7 +28,7 @@ Lately, I’ve been especially interested in:
 - Designed for debugging, learning, and rapid prototyping  
 - No setup, simply just import and go  
 
-- https://pypi.org/project/logeye/ -
+Check it out here: https://pypi.org/project/logeye/
 
 #### [Relaxy (JavaScript/Python)](https://github.com/MattFor/Relaxy-public-showcase)
 > Long-running Discord bot platform built and maintained over 7+ years around user lead requirements  
@@ -42,7 +42,7 @@ Lately, I’ve been especially interested in:
 - Self-monitoring and self-repair systems for high uptime
   (real-time error detection, custom JS module loader)
 
-- https://relaxy.xyz -
+Check it out here: https://relaxy.xyz
 
 #### [emoji-mixer (JavaScript)](https://github.com/MattFor/emoji-mixer)
 > Generate Google Emoji Kitchen combinations programmatically
@@ -50,22 +50,22 @@ Lately, I’ve been especially interested in:
 - Used by over 1200+ projects, over 60 000 downloads
 - Incredibly easy to use
 
-- https://www.npmjs.com/package/emoji-mixer -
+Check it out here: https://www.npmjs.com/package/emoji-mixer
 
 
-#### 🛠️ ther Projects
+#### Other Projects
 
 - [Path Variable Editor (Python)](https://github.com/MattFor/Path-Variable-Editor)  
-  -> A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit
+  A compact easy to use PATH environment variable editor for Windows which allows to push past the 2047 char limit
 
 - [RayTracer (C++)](https://github.com/MattFor/RayTracer)  
-  -> From-scratch rendering experiment  
+  From-scratch rendering experiment  
 
 - [Multithreaded Neural Network (C++)](https://github.com/MattFor/NeuralNetwork)  
-  -> Lightweight, fast C++ neural network written without specialized libraries completely from scratch, very customizable
+  Lightweight, fast C++ neural network written without specialized libraries completely from scratch, very customizable
 
 - [hprint (C++)](https://github.com/MattFor/hprint)  
-  -> Minimal header-only C++ library for printing centered terminal headers
+  Minimal header-only C++ library for printing centered terminal headers
 
 ---
 
@@ -73,7 +73,7 @@ Lately, I’ve been especially interested in:
   <img src="https://streak-stats.demolab.com?user=MattFor&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220"/>
 </div> -->
 
-### Contact Information
+## Contact Information
 
 - Write to me mattfor@relaxy.xyz
 - Add me on discord @ mattfor / MattFor#9884 (originally)
@@ -81,7 +81,7 @@ Lately, I’ve been especially interested in:
 
 Should you want to, feel free to reach out if you have any questions, collaboration ideas, or just want to chat.
 
-### Other Fun Facts
+## Other Fun Facts
 
 I'm the community manager for [Escape The Backrooms!](https://discord.gg/fancygames). <a href="https://discord.gg/fancygames"><img src="https://img.shields.io/discord/516403532329385985?color=FBD691&logo=discord&logoColor=cream"/></a>
 
