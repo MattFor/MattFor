@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="133.63"
+          width="133.64"
           height="8"
           fill="#f1e05a"
         />
@@ -138,7 +138,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="133.63"
+          x="133.64"
           y="0"
           width="72.58"
           height="8"
@@ -148,9 +148,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="206.20999999999998"
+          x="206.21999999999997"
           y="0"
-          width="24.48"
+          width="24.47"
           height="8"
           fill="#f34b7d"
         />
@@ -160,7 +160,7 @@
           data-testid="lang-progress"
           x="230.68999999999997"
           y="0"
-          width="17.18"
+          width="17.17"
           height="8"
           fill="#555555"
         />
@@ -168,7 +168,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="237.86999999999998"
+          x="237.85999999999996"
           y="0"
           width="15.719999999999999"
           height="8"
@@ -178,7 +178,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="243.58999999999997"
+          x="243.57999999999996"
           y="0"
           width="12.27"
           height="8"
@@ -188,7 +188,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.85999999999999"
+          x="245.84999999999997"
           y="0"
           width="12.120000000000001"
           height="8"
@@ -198,7 +198,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="247.98"
+          x="247.96999999999997"
           y="0"
           width="12.02"
           height="8"
@@ -211,7 +211,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 53.45%
+        JavaScript 53.46%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
