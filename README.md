@@ -72,12 +72,12 @@ https://pypi.org/project/logeye/
 
 - [relaxy-website](https://github.com/MattFor/relaxy-website) (HTML, CSS, vanilla JS) - Static site with no dependencies and no build step. 12 pages, ~5,400 lines of JS, ~4,500 lines of CSS, plus a separate uptime page.
 - [tracker](https://github.com/MattFor/tracker) (Python) - CLI project tracker with Git repo discovery, search/filtering, bulk editing, configurable output, and a background update daemon.
-- [abba](https://github.com/MattFor/abba) (C++) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file integrity hashing and INI-driven configuration. Still in the early stages.
+- [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file integrity hashing and INI-driven configuration. Still in the early stages.
 - [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von Neumann architecture simulator with a native GUI.
 - [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Shell, X11) - Scripts and config that make Japanese input under IBus and Mozc work on a keyboard without dedicated JP keys. The entire thing constantly monitors itself to make sure nothing breaks.
-- [neural-network](https://github.com/MattFor/neural-network) (C++) - Multithreaded neural network written from scratch with no ML libraries.
+- [neural-network](https://github.com/MattFor/neural-network) (C++26) - Multithreaded neural network written from scratch.
 - [raytracer](https://github.com/MattFor/raytracer) (C++) - Ray tracer following Ray Tracing in One Weekend.
-- [hprint](https://github.com/MattFor/hprint) (C++) - Header-only utility for centered terminal headers with compile-time border characters and terminal width detection.
+- [hprint](https://github.com/MattFor/hprint) (C++26) - Header-only utility for centered terminal headers with compile-time border characters and terminal width detection.
 - [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past the 2047 character limit.
 
 Mirrors of all of my  repositories are also available on [codeberg.org/MattFor](https://codeberg.org/MattFor).
