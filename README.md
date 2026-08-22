@@ -1,26 +1,31 @@
-I write developer tooling and systems software, things that people will use. C, C++ and Rust are my preferred languages; JavaScript and Python are the ones I use most and know best. Currently in university. 
+I write things that people will use. C, C++ and Rust are my preferred languages; JavaScript and Python are the ones I use most and know best. Currently in university. 
 
 I'm open to collaboration and contributions.  
-Everything below is built and maintained in my own free time.
+Everything below is built and maintained in my free time.
 
 ---
 
 ## My Best projects
 
-### Relaxy
+### Relaxy Discord bot
 
-A multipurpose Discord bot running as a sharded fleet with one supervising manager process and N cluster processes, backed by MongoDB and running on a Raspberry Pi.
+A multipurpose Discord bot running as a sharded fleet with one supervising manager process and N cluster processes. Backend uses MongoDB.
 
-Uses: Node.js, discord.js, MongoDB (Mongoose), discord-hybrid-sharding, discord-player (vendored fork), node-canvas, ffmpeg, tesseract-ocr.
+Uses: Node.js v24+, discord.js v14, MongoDB (Mongoose), discord-hybrid-sharding, discord-player (custom fork), node-canvas, ffmpeg, tesseract-ocr.
 
 - 210,000+ users
 - 188 commands, 58 event handlers
 - ~120,000 lines across 434 source files, with 1,124 commits since September 2021
-- Diff-based document storage
+- Diff-based document storage, multi-process DB workers, local caching
 - OCR-backed and perceptual-hash scam detection on posted images
 - Cross-server role sync, ban appeals and synced moderation over a credential-less handshake
-- Hot reload and class patching
-- Shard and network watchdogs
+- Hot reload, rolling restarts andclass patching
+- Shard, network and file watchdogs
+
+#### Infrastructure & Ecosystem
+
+The Raspberry Pi runs Void and hosts: the Relaxy! bot, CDN, website, dashboard and health/monitoring services + a few self-correction scripts.  
+All services are isolated using **Podman and bubblewrap**. 
 
 https://relaxy.xyz | [Showcase source](https://github.com/MattFor/relaxy-public)
 
@@ -28,7 +33,7 @@ https://relaxy.xyz | [Showcase source](https://github.com/MattFor/relaxy-public)
 
 Web dashboard for the bot. Discord OAuth login, three access tiers computed from the OAuth guilds permission bitfield. Has per-user profile customization as well.
 
-Uses: Fastify, native MongoDB driver, vanilla JavaScript, esbuild.
+Uses: Fastify, custom MongoDB driver, JavaScript, esbuild.
 
 - ~43,000 lines across 55 files
 - Discord OAuth-based access control with three permission tiers, per-request authorization checks, per-session CSRF protection, and an explicit allow-list of fields that can be modified.
@@ -69,13 +74,13 @@ https://pypi.org/project/logeye/
 - [tracker](https://github.com/MattFor/tracker) (Python) - CLI project tracker with Git repo discovery, search/filtering, bulk editing, configurable output, and a background update daemon.
 - [abba](https://github.com/MattFor/abba) (C++) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file integrity hashing and INI-driven configuration. Still in the early stages.
 - [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von Neumann architecture simulator with a native GUI. Built with Krisunio, not yet available.
-- [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Shell, X11) - Scripts and config that make Japanese input under IBus and Mozc survive on a keyboard without dedicated JP keys. Health checks verify the input method actually works rather than that its processes exist.
+- [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Shell, X11) - Scripts and config that make Japanese input under IBus and Mozc work on a keyboard without dedicated JP keys. The entire thing constantly monitors itself to make sure nothing breaks.
 - [neural-network](https://github.com/MattFor/neural-network) (C++) - Multithreaded neural network written from scratch with no ML libraries.
 - [raytracer](https://github.com/MattFor/raytracer) (C++) - Ray tracer following Ray Tracing in One Weekend.
 - [hprint](https://github.com/MattFor/hprint) (C++) - Header-only utility for centered terminal headers with compile-time border characters and terminal width detection.
 - [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past the 2047 character limit.
 
-Mirrors of most repositories are also available on [codeberg.org/MattFor](https://codeberg.org/MattFor).
+Mirrors of all of my  repositories are also available on [codeberg.org/MattFor](https://codeberg.org/MattFor).
 
 ---
 
