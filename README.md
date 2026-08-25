@@ -19,22 +19,17 @@ Everything below is built and maintained in my free time.
 
 ## My Best projects
 
-### Relaxy! Ecosystem
+### Relaxy! Ecosystem<a href="https://github.com/MattFor/relaxy-public-v2"><img align="right" src="https://img.shields.io/badge/lines%20of%20code-~250k-0e75b6?style=flat-square" alt="lines of code"></a><a href="https://uptime.relaxy.xyz"><img align="right" hspace="1" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frelaxy.xyz%2Fstatus.json&query=%24.bot.totalUsers&label=users&style=flat-square&color=2ea043" alt="users"></a><img align="right" hspace="1" src="https://img.shields.io/badge/-6e7681?style=flat" alt=""><a href="https://cdn.relaxy.xyz"><img align="right" hspace="1" src="https://img.shields.io/badge/cdn-0e75b6?style=flat-square" alt="cdn"></a><a href="https://uptime.relaxy.xyz"><img align="right" hspace="1" src="https://img.shields.io/badge/uptime-0e75b6?style=flat-square" alt="uptime"></a><a href="https://dashboard.relaxy.xyz"><img align="right" hspace="1" src="https://img.shields.io/badge/dashboard-0e75b6?style=flat-square" alt="dashboard"></a><a href="https://relaxy.xyz"><img align="right" hspace="1" src="https://img.shields.io/badge/relaxy.xyz-0e75b6?style=flat-square" alt="relaxy.xyz"></a>
 
 Everything `relaxy.xyz` related: the bot, the dashboard, the website and the supplementary services.  
 A single RaspberryPi hosts everything isolated under Podman and bubblewrap.
 <!--  <a href="https://voidlinux.org/"><img src="https://img.shields.io/badge/-478061?style=flat-square&logo=voidlinux&logoColor=white" height="15" style="vertical-align: 0px;"></a> -->
 
-[![relaxy.xyz](https://img.shields.io/badge/relaxy.xyz-0e75b6?style=flat-square)](https://relaxy.xyz)
-[![dashboard](https://img.shields.io/badge/dashboard-0e75b6?style=flat-square)](https://dashboard.relaxy.xyz)
-[![uptime](https://img.shields.io/badge/uptime-0e75b6?style=flat-square)](https://uptime.relaxy.xyz)
-[![cdn](https://img.shields.io/badge/cdn-0e75b6?style=flat-square)](https://cdn.relaxy.xyz)
-![|](https://img.shields.io/badge/-6e7681?style=flat)
-[![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frelaxy.xyz%2Fstatus.json&query=%24.bot.totalUsers&label=users&style=flat-square&color=2ea043)](https://uptime.relaxy.xyz)
-[![lines of code](https://img.shields.io/badge/total%20lines%20of%20code-~250k-0e75b6?style=flat-square)](https://github.com/MattFor/relaxy-public-v2)
-
+<table width="100%">
+<tr>
+<td valign="top">
 <details>
-<summary><b>Relaxy! Discord Bot</b></summary>
+<summary><b>Discord&nbsp;Bot</b></summary>
 
 A multipurpose Discord bot running as a sharded fleet with one supervising manager process and N cluster processes.
 Backend uses MongoDB.
@@ -55,9 +50,10 @@ node-canvas, ffmpeg, tesseract-ocr.
 [![source](https://img.shields.io/badge/public%20source-half--open-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/relaxy-public-v2)
 
 </details>
-
+</td>
+<td valign="top">
 <details>
-<summary><b>Relaxy! Dashboard</b></summary>
+<summary><b>Dashboard</b></summary>
 
 Web dashboard for the bot. Discord OAuth login, three access tiers computed from the OAuth guilds permission bitfield.
 Has per-user profile customization as well.
@@ -68,9 +64,10 @@ Uses: Fastify, the native MongoDB driver, JavaScript, esbuild.
   protection and a strict list of modifiable fields
 
 </details>
-
+</td>
+<td valign="top">
 <details>
-<summary><b>Relaxy! Website</b></summary>
+<summary><b>Website</b></summary>
 
 The bot's showcase site, plus the public uptime page. I've designed it from the ground up to be as fast as possible.
 
@@ -83,9 +80,10 @@ Uses: HTML, CSS, JavaScript.
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/relaxy-website)
 
 </details>
-
+</td>
+<td valign="top">
 <details>
-<summary><b>Relaxy! Additions</b></summary>
+<summary><b>Additions</b></summary>
 
 The scripts and services that ensure maximum possible uptime. Written for runit on Void.
 
@@ -103,11 +101,11 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/relaxy-additions)
 
 </details>
+</td>
+</tr>
+</table>
 
-### emoji-mixer
-
-[![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
-[![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/emoji-mixer)
+### emoji-mixer<a href="https://github.com/MattFor/emoji-mixer"><img align="right" hspace="1" src="https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white" alt="source"></a><a href="https://www.npmjs.com/package/emoji-mixer"><img align="right" hspace="1" src="https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white" alt="npm"></a>
 
 Node library that generates Google Emoji Kitchen combination image URLs from two emojis.
 
@@ -118,11 +116,7 @@ Uses: JavaScript, webpack (CJS and ESM builds), TypeScript, Python3.
 - 619 base emojis, 330,640 valid combinations
 - Compact compatibility data is 2.4 MB, down from the 96 MB original.
 
-### LogEye
-
-[![PyPI](https://img.shields.io/pypi/v/logeye?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/logeye/)
-[![Python](https://img.shields.io/pypi/pyversions/logeye?style=flat-square&color=0e75b6)](https://pypi.org/project/logeye/)
-[![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/logeye)
+### LogEye<a href="https://github.com/MattFor/logeye"><img align="right" hspace="1" src="https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white" alt="source"></a><a href="https://pypi.org/project/logeye/"><img align="right" hspace="1" src="https://img.shields.io/pypi/pyversions/logeye?style=flat-square&color=0e75b6" alt="Python"></a><a href="https://pypi.org/project/logeye/"><img align="right" hspace="1" src="https://img.shields.io/pypi/v/logeye?style=flat-square&color=3775A9&logo=pypi&logoColor=white" alt="PyPI"></a>
 
 Runtime introspection logger for Python. Reports variable assignments, mutations and function calls as they happen, with
 no debugger and no instrumentation of the target code beyond a decorator.
@@ -134,12 +128,7 @@ Uses: Python 3.10+, sys.settrace introspection.
 - Educational mode rewrites output into plain sentences for teaching
 - Tracks locals, attribute writes, container mutations, arguments and return values
 
-### simple-project-tracker
-
-[![Python](https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
-[![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/simple-project-tracker/blob/main/LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/MattFor/simple-project-tracker/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/simple-project-tracker/actions/workflows/ci.yml)
-[![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
+### simple-project-tracker<a href="https://github.com/MattFor/simple-project-tracker"><img align="right" hspace="1" src="https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white" alt="source"></a><a href="https://github.com/MattFor/simple-project-tracker/actions/workflows/ci.yml"><img align="right" hspace="1" src="https://img.shields.io/github/actions/workflow/status/MattFor/simple-project-tracker/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white" alt="CI"></a><a href="https://github.com/MattFor/simple-project-tracker/blob/main/LICENSE"><img align="right" hspace="1" src="https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square" alt="License"></a><a href="https://github.com/MattFor/simple-project-tracker"><img align="right" hspace="1" src="https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
 
 CLI project tracker with Git repo discovery, search/filtering, bulk editing, configurable output, and a background
 update daemon.
