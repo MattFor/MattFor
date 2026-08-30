@@ -155,9 +155,6 @@ Uses: Python 3.11+.
 
 ## Other projects
 
-- [leetcode-zed](https://github.com/MattFor/leetcode-zed) (Rust) - A Zed port of vscode-leetcode. Zed extensions are
-  sandboxed WebAssembly with no tree views or webviews (SAD!) so this is a native Rust CLI talking to LeetCode's GraphQL
-  and judge endpoints, wrapped in a `wasm32-wasip2` extension that runs it as an MCP server for the Agent Panel.
 - [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file
   integrity hashing and INI-driven configuration. Still work in progress!
 - [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von
@@ -194,6 +191,8 @@ Uses: Python 3.11+.
 
 #### University
 
+- [university-coursework](https://github.com/MattFor/university-coursework) (C, C++, Python, Jupyter) - Everything from
+  my Computer Science degree, organised by semester.
 - [neural-network](https://github.com/MattFor/neural-network) (C++26) - Feedforward multithreaded neural network written
   from scratch, with a test suite. (also submitted as the final project for algorithms & data structures)
 - [visual-sorter-v2](https://github.com/MattFor/visual-sorter-v2) (C++20, OpenGL [GLFW], SDL3 and ImGui) - Twelve
@@ -201,9 +200,8 @@ Uses: Python 3.11+.
 - [emergency-department](https://github.com/MattFor/emergency-department) (C++20, POSIX IPC) - A hospital emergency
   department where every role is a separate process, coordinating purely through message queues, shared memory,
   semaphores and signals. Final project for operating systems class.
-- [numerical-methods-lab-programs](https://github.com/MattFor/numerical-methods-lab-programs) (C++) - Numerical methods
-  lab programs.
-- [dotnet-university](https://github.com/MattFor/dotnet-university) (C#) - Every exercise from the .NET class.
+- [numerical-methods-labs](https://github.com/MattFor/numerical-methods-labs) (C++) - Numerical methods lab programs.
+- [university-dotnet](https://github.com/MattFor/university-dotnet) (C#) - Every exercise from the .NET class.
 
 #### Older projects
 
