@@ -116,7 +116,7 @@ Uses: JavaScript, webpack (CJS and ESM builds), TypeScript, Python3.
 - 122,000+ total downloads ([npm-stat](https://npm-stat.com/charts.html?package=emoji-mixer))
 - 1,221 dependent repositories on GitHub
 - 619 base emojis, 330,640 valid combinations
-- Compact compatibility data is 2.4 MB, down from the 96 MB original.
+- Compact compatibility data is 2.4MB (OG was 96MB!)
 
 ### LogEye
 
