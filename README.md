@@ -146,7 +146,7 @@ update daemon.
 
 Uses: Python 3.11+.
 
-- ~10,500 lines across 35 modules, with 17 test modules on top
+- ~10,500 lines across 35 modules, with 17 test modules
 - 15 commands, each with aliases and a fused short version
 - Frecency-based name resolution
 - Undoable edits, a background daemon, shell completion for bash, zsh and fish, and a `man` page
