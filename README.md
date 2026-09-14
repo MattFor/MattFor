@@ -134,6 +134,24 @@ Uses: Python 3.10+, sys.settrace introspection.
 - Educational mode rewrites output into plain sentences for teaching
 - Tracks locals, attribute writes, container mutations, arguments and return values
 
+### Lexiglance
+
+[![Release](https://img.shields.io/github/v/release/MattFor/lexiglance?style=flat-square&color=3775A9)](https://github.com/MattFor/lexiglance/releases)
+[![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/lexiglance/blob/master/LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/MattFor/lexiglance/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/lexiglance/actions/workflows/ci.yml)
+[![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/lexiglance)
+
+System-wide pop-up dictionary for Linux (X11) and Windows.  
+Hold a key combination and point at a word in any
+application to see its definitions. Same dict format as [Yomitan](https://yomitan.wiki/).
+
+Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
+
+- Japanese, Russian, Ukrainian, Korean and Greek, with deinflection (食べさせられなかった finds 食べる)
+- Reads text through accessibility interfaces, or with OCR in games, images and videos
+- Dictionaries compiled into memory-mapped indexes
+- Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
+
 ### simple-project-tracker
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
