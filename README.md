@@ -104,7 +104,7 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 
 </details>
 
-### emoji-mixer
+### Emoji Mixer
 
 [![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/emoji-mixer)
@@ -152,7 +152,7 @@ Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
 - Dictionaries compiled into memory-mapped indexes
 - Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
 
-### simple-project-tracker
+### Simple Project Tracker
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
 [![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/simple-project-tracker/blob/main/LICENSE)
