@@ -1,10 +1,18 @@
 <div align="center">
 
-[![Website](https://img.shields.io/badge/mattfor.com-cc056b?style=flat-square&logo=firefoxbrowser&logoColor=white)](https://mattfor.com)
+[![Website](https://img.shields.io/badge/mattfor.com-cc056b?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://mattfor.com)
+
 [![Email](https://img.shields.io/badge/mattfor%40relaxy.xyz-a02074?style=flat-square&logo=maildotru&logoColor=white)](mailto:mattfor@relaxy.xyz)
 [![Codeberg](https://img.shields.io/badge/codeberg-733b7d?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/MattFor)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-support-465686?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/relaxy)
 [![Profile views](https://komarev.com/ghpvc/?username=mattfor&label=Profile%20views&color=1a718f&style=flat-square)](https://github.com/MattFor)
+
+</div>
+
+
+<div align="center">
+
+<img src="https://icon-marquee.giann.dev/v1/marquee?i=c,cpp,rust,js,py,ts,nodejs,discordjs,mongodb,fastify,html,css,opengl,sdl,bash,linux,voidlinux,raspberrypi,podman,git&width=800" alt="C, C++, Rust, JavaScript, Python, TypeScript, Node.js, discord.js, MongoDB, Fastify, HTML, CSS, OpenGL, SDL, Bash, Linux, Void Linux, Raspberry Pi, Podman, Git" />
 
 </div>
 
