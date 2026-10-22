@@ -4,7 +4,7 @@
 
 [![Email](https://img.shields.io/badge/mattfor%40relaxy.xyz-a02074?style=flat-square&logo=maildotru&logoColor=white)](mailto:mattfor@relaxy.xyz)
 [![Codeberg](https://img.shields.io/badge/codeberg-733b7d?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/MattFor)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-465686?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/relaxy)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-465686?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/mattfor)
 [![Profile views](https://komarev.com/ghpvc/?username=mattfor&label=Profile%20views&color=1a718f&style=flat-square)](https://github.com/MattFor)
 
 </div>
