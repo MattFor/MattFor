@@ -39,7 +39,7 @@ A single RaspberryPi hosts everything isolated under Podman and bubblewrap.
 [![cdn](https://img.shields.io/badge/cdn-0e75b6?style=flat-square)](https://cdn.relaxy.xyz)
 ![|](https://img.shields.io/badge/-6e7681?style=flat)
 [![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frelaxy.xyz%2Fstatus.json&query=%24.bot.totalUsers&label=users&style=flat-square&color=2ea043)](https://uptime.relaxy.xyz)
-[![lines of code](https://img.shields.io/badge/total%20lines%20of%20code-~250k-0e75b6?style=flat-square)](https://github.com/MattFor/relaxy-public-v2)
+[![lines of code](https://img.shields.io/badge/LOC-~250k-0e75b6?style=flat-square)](https://github.com/MattFor/relaxy-public-v2)
 
 <details>
 <summary><b>Relaxy! Discord Bot</b></summary>
@@ -115,16 +115,18 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 ### Emoji Mixer
 
 [![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
+[![PyPI](https://img.shields.io/pypi/v/emoji-mixer?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/emoji-mixer/)
+[![crates.io](https://img.shields.io/crates/v/emoji-mixer?style=flat-square&color=dea584&logo=rust&logoColor=white)](https://crates.io/crates/emoji-mixer)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/emoji-mixer)
 
-Node library that generates Google Emoji Kitchen combination image URLs from two emojis.
+Library for JavaScript, Python and Rust that generates Google Emoji Kitchen combination image URLs from two emojis.
 
-Uses: JavaScript, webpack (CJS and ESM builds), TypeScript, Python3.
+Uses: TypeScript, Python, Rust, GitHub Actions.
 
-- 122,000+ total downloads ([npm-stat](https://npm-stat.com/charts.html?package=emoji-mixer))
+- 125,000+ total downloads ([npm-stat](https://npm-stat.com/charts.html?package=emoji-mixer))
 - 1,221 dependent repositories on GitHub
 - 619 base emojis, 330,640 valid combinations
-- Compact compatibility data is 2.4MB (OG was 96MB!)
+- Compact compatibility data is 2.9MB (OG was 96MB!)
 
 ### LogEye
 
@@ -137,7 +139,7 @@ no debugger and no instrumentation of the target code beyond a decorator.
 
 Uses: Python 3.10+, sys.settrace introspection.
 
-- 9,000+ PyPI downloads
+- 10,000+ PyPI downloads
 - ~4,700 lines across 12 modules, with 16 test modules and 16 demos
 - Educational mode rewrites output into plain sentences for teaching
 - Tracks locals, attribute writes, container mutations, arguments and return values
@@ -172,10 +174,10 @@ update daemon.
 
 Uses: Python 3.11+.
 
-- ~10,500 lines across 35 modules, with 17 test modules
+- ~11,500 lines across 35 modules, with 17 test modules
 - 15 commands, each with aliases and a fused short version
 - Frecency-based name resolution
-- Undoable edits, a background daemon, shell completion for bash, zsh and fish, and a `man` page
+- Undoable edits, tui, a background daemon, shell completion for bash, zsh and fish, and a `man` page
 
 ---
 
@@ -189,6 +191,10 @@ Uses: Python 3.11+.
   Japanese input under IBus and Mozc work on a keyboard without dedicated JP keys.
 - [xfce-tiler](https://github.com/MattFor/xfce-tiler) (Python, X11) - Quadrant, half and directional window tiling for
   XFCE and xfwm4.
+- [x11-mic-monitor](https://github.com/MattFor/x11-mic-monitor) (Python, X11, PipeWire) - Hear your own microphone on
+  a mouse button, or record yourself and hear it straight back.
+- [discord-profile-studio](https://github.com/MattFor/discord-profile-studio) (Python, Tkinter) - Designer for Discord
+  Rich Presence and profile widgets with a live preview. Still work in progress!
 - [hprint](https://github.com/MattFor/hprint) (C++26) - Header-only utility for centered terminal headers with
   compile-time border characters and terminal width detection.
 - [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past
@@ -198,6 +204,15 @@ Uses: Python 3.11+.
 - [raytracer](https://github.com/MattFor/raytracer) (C++) - Ray tracer following Ray Tracing in One Weekend.
 - [libstrangle-dlsym-fix](https://github.com/MattFor/libstrangle-dlsym-fix) (C) - Fork of milaq's libstrangle with the
   `__libc_dlsym` lookup error corrected making OpenGL work again on latest glibc.
+
+<details>
+<summary><b>Unreleased</b> - Projects which will probably never see the light of day</summary>
+
+- Local AI Studio (Rust, ratatui) - Super+R popup for quick questions to local models. Shows timing per reply, has
+  approval modes, and the model can look at the screen, read selected text, search files and search the web.
+- Mood (Rust, ratatui) - Logging mood scores, with averages, graphs and the like.
+
+</details>
 
 <details>
 <summary><b>Personal</b> - Random configs and themes that I use</summary>
