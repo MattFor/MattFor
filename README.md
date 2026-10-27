@@ -133,7 +133,7 @@ Uses: TypeScript, Python, Rust, GitHub Actions.
 
 [![PyPI](https://img.shields.io/pypi/v/logeye?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/logeye/)
 [![Python](https://img.shields.io/pypi/pyversions/logeye?style=flat-square&color=0e75b6)](https://pypi.org/project/logeye/)
-[![CI](https://img.shields.io/github/actions/workflow/status/MattFor/logeye/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/logeye/actions/workflows/ci.yml)
+<!-- [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/logeye/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/logeye/actions/workflows/ci.yml) -->
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/logeye)
 
 Runtime introspection logger for Python. Reports variable assignments, mutations and function calls as they happen, with
