@@ -117,6 +117,7 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 [![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
 [![PyPI](https://img.shields.io/pypi/v/emoji-mixer?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/emoji-mixer/)
 [![crates.io](https://img.shields.io/crates/v/emoji-mixer?style=flat-square&color=dea584&logo=rust&logoColor=white)](https://crates.io/crates/emoji-mixer)
+[![CI](https://img.shields.io/github/actions/workflow/status/MattFor/emoji-mixer/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/emoji-mixer/actions/workflows/ci.yml)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/emoji-mixer)
 
 Library for JavaScript, Python and Rust that generates Google Emoji Kitchen combination image URLs from two emojis.
