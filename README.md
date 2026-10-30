@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Website](https://img.shields.io/badge/mattfor.com-cc056b?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://mattfor.com)
+[![Website](https://img.shields.io/badge/mattfor.com-cc056b?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y%2BmAAAAP1BMVEUMDAcqKxhMTCw%2FQCU6OyIfIRMgHxGnpl7FxHTHxna5uGyxsGSzsmmUlFRnZzt4eEXGxXXHxnLAv22gn1rAwHHY7KVrAAABbUlEQVQoz32T0ZbDIAhEgRJpUIxW%2F%2F9bdzRtd592HjzGiyMoIfpXLB89lPmA0i2wZE%2FoPNfoZtkLlJci0ZHPj6wyS9xzxOe%2F0IXSQSm2CfQHPs%2BgI8qVDgNtrX1gh07AiqBKYuXV2vm2ba2vvYPkuUYkySrRbEGwEvUaU6h6EdIqstb3zjZDV71hSqrE1p6vSMk27KsgYeJSVi2GZFqvNDaEneRWlKL36Ss5wKDY0JJ6b%2F0i2XtueH3hY2ItSOYXtvqGrgmGOKX2r3DUDWHB9aoJIe7zDR8fOOt%2BnuohXG2ZtpemO1sEohgZ7drPa2un86dOuGiyXpiqoazlXN7Q5pyuXPpI4t2YJHzmY1UB6O5FtXgAemZYVze83AAcaIy8oPERIcg8aRmJ84boGWPNuNmdUBRli6Srh1Kgl8YhlrNdohWfchiu64ZmCBT7lR4DF20bjrHmGEfEHnE2mmUAEqsqU9JfYQ1dqPz%2Fz%2FADs7MZxJrLqYgAAAAASUVORK5CYII%3D)](https://mattfor.com)
 
 [![Email](https://img.shields.io/badge/mattfor%40relaxy.xyz-a02074?style=flat-square&logo=maildotru&logoColor=white)](mailto:mattfor@relaxy.xyz)
 [![Codeberg](https://img.shields.io/badge/codeberg-733b7d?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/MattFor)
@@ -51,7 +51,7 @@ Uses: Node.js v24+, discord.js v14, MongoDB (Mongoose), discord-hybrid-sharding,
 node-canvas, ffmpeg, tesseract-ocr.
 
 - 210,000+ users
-- 188 commands, 58 event handlers
+- 192 commands, 58 event handlers
 - Diff-based document storage, multi-process DB workers, local caching
 - OCR-backed and perceptual-hash scam detection on posted images
 - Cross-server role sync, ban appeals and synced moderation over a credential-less handshake
@@ -84,7 +84,7 @@ The bot's showcase site, plus the public uptime page. I've designed it from the 
 
 Uses: HTML, CSS, JavaScript.
 
-- 12 pages, ~5,400 lines of JS, ~5,650 lines of CSS
+- 12 pages, ~4,600 lines of JS, ~5,850 lines of CSS
 - Changelog, devlog, technical writeup, CDN, Matrix and Minecraft pages
 - The uptime page is driven by the health feeds published below
 
@@ -100,7 +100,7 @@ The scripts and services that ensure maximum possible uptime. Written for runit 
 Uses: Node.js, POSIX shell scripts, nftables, runit.
 
 - Probes 24 services on a ten-second loop and publishes three JSON feeds (one full, one public, one status)
-- Hardware watchdog that pets `/dev/watchdog`; makes the Pi will reboot automatically on a deadlock
+- Hardware watchdog that pets `/dev/watchdog`, so the Pi reboots automatically on a deadlock
 - An uptime ledger with day buckets, incident detection and cause inference, mirrored into a Discord outages channel
 - `incident` CLI tool for declaring and annotating outages
 - Scripts to keep sshd at the top of the CPU, IO and OOM priority lists, with a self-contained nftables table putting
@@ -117,37 +117,46 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 [![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
 [![PyPI](https://img.shields.io/pypi/v/emoji-mixer?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/emoji-mixer/)
 [![crates.io](https://img.shields.io/crates/v/emoji-mixer?style=flat-square&color=dea584&logo=rust&logoColor=white)](https://crates.io/crates/emoji-mixer)
+[![JSR](https://img.shields.io/jsr/v/@mattfor/emoji-mixer?style=flat-square&color=f7df1e&logo=jsr&logoColor=black)](https://jsr.io/@mattfor/emoji-mixer)
+[![Go](https://img.shields.io/badge/go-reference-00ADD8?style=flat-square&logo=go&logoColor=white)](https://pkg.go.dev/github.com/MattFor/emoji-mixer/v2)
+[![Packagist](https://img.shields.io/packagist/v/mattfor/emoji-mixer?style=flat-square&color=f28d1a&logo=packagist&logoColor=white)](https://packagist.org/packages/mattfor/emoji-mixer)
+[![RubyGems](https://img.shields.io/gem/v/emoji_mixer?style=flat-square&color=e9573f&logo=rubygems&logoColor=white)](https://rubygems.org/gems/emoji_mixer)
+[![NuGet](https://img.shields.io/nuget/v/EmojiMixer?style=flat-square&color=004880&logo=nuget&logoColor=white)](https://www.nuget.org/packages/EmojiMixer)
 [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/emoji-mixer/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/emoji-mixer/actions/workflows/ci.yml)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/emoji-mixer)
 
-Library for JavaScript, Python and Rust that generates Google Emoji Kitchen combination image URLs from two emojis.
+Library that generates Google Emoji Kitchen combination image URLs from two emojis, for JavaScript/TypeScript (npm and
+JSR), Python, Rust, Go, PHP, Ruby and C#.
 
-Uses: TypeScript, Python, Rust, GitHub Actions.
+Uses: TypeScript, Python, Rust, Go, PHP, Ruby, C#, GitHub Actions.
 
 - 125,000+ total downloads ([npm-stat](https://npm-stat.com/charts.html?package=emoji-mixer))
 - 1,221 dependent repositories on GitHub
 - 619 base emojis, 330,640 valid combinations
-- Compact compatibility data is 2.9MB (OG was 96MB!)
+- Compact compatibility data is 2.9MB (OG was 96MB!), shared by all nine packages
+- Every package is tested against the same cases and published from one release workflow
 
 ### LogEye
 
 [![PyPI](https://img.shields.io/pypi/v/logeye?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/logeye/)
 [![Python](https://img.shields.io/pypi/pyversions/logeye?style=flat-square&color=0e75b6)](https://pypi.org/project/logeye/)
-<!-- [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/logeye/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/logeye/actions/workflows/ci.yml) -->
+[![CI](https://img.shields.io/github/actions/workflow/status/MattFor/logeye/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/logeye/actions/workflows/ci.yml)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/logeye)
 
 Runtime introspection logger for Python. Reports variable assignments, mutations and function calls as they happen, with
 no debugger and no instrumentation of the target code beyond a decorator.
 
-Uses: Python 3.10+, sys.settrace introspection.
+Uses: Python 3.8+, sys.settrace introspection.
 
 - 10,000+ PyPI downloads
-- ~4,700 lines across 12 modules, with 16 test modules and 16 demos
+- ~5,600 lines across 12 modules, with 21 test modules and 10 demos, tested on Python 3.8 to 3.14 on Linux, macOS and
+  Windows
 - Educational mode rewrites output into plain sentences for teaching
 - Tracks locals, attribute writes, container mutations, arguments and return values
 
 ### Lexiglance
 
+[![AppImageHub](https://img.shields.io/badge/AppImageHub-listed-0e75b6?style=flat-square&logo=linux&logoColor=white)](https://appimage.github.io/lexiglance/)
 [![Release](https://img.shields.io/github/v/release/MattFor/lexiglance?style=flat-square&color=3775A9)](https://github.com/MattFor/lexiglance/releases)
 [![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/lexiglance/blob/master/LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/lexiglance/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/lexiglance/actions/workflows/ci.yml)
@@ -163,11 +172,12 @@ Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
 - Reads text through accessibility interfaces, or with OCR in games, images and videos
 - Dictionaries compiled into memory-mapped indexes
 - Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
+- Listed in the official [AppImageHub](https://appimage.github.io/lexiglance/) catalog
 
 ### Simple Project Tracker
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
-[![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/simple-project-tracker/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/simple-project-tracker/blob/master/LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/simple-project-tracker/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/simple-project-tracker/actions/workflows/ci.yml)
 [![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
 
@@ -176,10 +186,12 @@ update daemon.
 
 Uses: Python 3.11+.
 
-- ~11,500 lines across 35 modules, with 17 test modules
+- ~11,600 lines across 45 modules, with 23 test modules
 - 15 commands, each with aliases and a fused short version
 - Frecency-based name resolution
 - Undoable edits, tui, a background daemon, shell completion for bash, zsh and fish, and a `man` page
+- The v1.3.0 project browser was selected for the [XERJ](https://github.com/xerj-org/xerj) Corpus Hub of reference code
+  solutions for coding agents
 
 ---
 
@@ -197,10 +209,13 @@ Uses: Python 3.11+.
   a mouse button, or record yourself and hear it straight back.
 - [discord-profile-studio](https://github.com/MattFor/discord-profile-studio) (Python, Tkinter) - Designer for Discord
   Rich Presence and profile widgets with a live preview. Still work in progress!
-- [hprint](https://github.com/MattFor/hprint) (C++26) - Header-only utility for centered terminal headers with
-  compile-time border characters and terminal width detection.
+- [hprint](https://github.com/MattFor/hprint) (C++23) - Header-only utility for centered terminal headers. Unicode 16
+  aware widths (emoji sequences, combining marks, escape codes), UTF-8 borders, any output stream, usable at compile
+  time.
 - [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past
-  the 2047 character limit.
+  the 2047-character limit, with backups and a check against other programs' changes before saving.
+- [mood](https://github.com/MattFor/mood) (Rust, ratatui) - Log 0-10 mood scores with reasons from the terminal, then
+  review them as terminal charts or PNG graphs.
 - [download-favourite-discord-gifs](https://github.com/MattFor/download-favourite-discord-gifs) (Python) - Downloads
   exported Discord favourite GIFs, converts to correct formats with magic byte detection.
 - [raytracer](https://github.com/MattFor/raytracer) (C++) - Ray tracer following Ray Tracing in One Weekend.
@@ -212,7 +227,6 @@ Uses: Python 3.11+.
 
 - Local AI Studio (Rust, ratatui) - Super+R popup for quick questions to local models. Shows timing per reply, has
   approval modes, and the model can look at the screen, read selected text, search files and search the web.
-- Mood (Rust, ratatui) - Logging mood scores, with averages, graphs and the like.
 
 </details>
 
@@ -224,8 +238,9 @@ Uses: Python 3.11+.
 - [.bashrc](https://github.com/MattFor/.bashrc) (Shell) - My .bashrc. System, packaging, media and programming
   utilities, each documented with what it needs installed.
 - [gtk-config](https://github.com/MattFor/gtk-config) (CSS) - My GTK 3 and 4 theme for Void.
-- [xfce4-notes-plugin](https://github.com/MattFor/xfce4-notes-plugin) (Vala) - Mirror with the `.git` folder detection
-  removed, along with the folder name in the title.
+- [xfce4-notes-plugin](https://github.com/MattFor/xfce4-notes-plugin) (Vala) - Fork of the Xfce notes plugin: opens any
+  folder of notes (every folder a window), works well with git and Syncthing, reads legacy encodings, scrolls between notes and
+  shows/hides on a shortcut.
 
 </details>
 
@@ -276,7 +291,7 @@ Mirrors of my repositories are also available on [codeberg.org/MattFor](https://
 ## Community
 
 I'm a community manager for [Fancy Games](https://store.steampowered.com/publisher/fancy),
-overseeing [Escape The Backrooms](https://store.steampowered.com/app/1943950/Escape_the_Backrooms/). Join
+overseeing [Escape The Backrooms](https://store.steampowered.com/app/1943950/Escape_the_Backrooms/) since 2023. Join
 our [Discord server](https://discord.gg/fancygames)!  
 I also own and run the Escape the Backrooms Community
 organisation [GitHub](https://github.com/EscapeTheBackroomsCommunity) | [Codeberg](https://codeberg.org/EscapeTheBackrooms).
