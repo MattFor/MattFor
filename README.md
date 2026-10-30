@@ -190,7 +190,7 @@ Uses: Python 3.11+.
 - 15 commands, each with aliases and a fused short version
 - Frecency-based name resolution
 - Undoable edits, tui, a background daemon, shell completion for bash, zsh and fish, and a `man` page
-- The v1.3.0 project browser was selected for the [XERJ](https://github.com/xerj-org/xerj) Corpus Hub of reference code
+- Selected for the [XERJ](https://github.com/xerj-org/xerj) Corpus Hub of reference code
   solutions for coding agents
 
 ---
