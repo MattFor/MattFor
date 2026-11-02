@@ -30,7 +30,7 @@ Everything below is built and maintained in my free time.
 ### Relaxy! Ecosystem
 
 Everything `relaxy.xyz` related: the bot, the dashboard, the website and the supplementary services.  
-A single RaspberryPi hosts everything isolated under Podman and bubblewrap.
+A RaspberryPi hosts everything isolated under Podman and bubblewrap.
 <!--  <a href="https://voidlinux.org/"><img src="https://img.shields.io/badge/-478061?style=flat-square&logo=voidlinux&logoColor=white" height="15" style="vertical-align: 0px;"></a> -->
 
 [![relaxy.xyz](https://img.shields.io/badge/relaxy.xyz-0e75b6?style=flat-square)](https://relaxy.xyz)
@@ -130,10 +130,10 @@ JSR), Python, Rust, Go, PHP, Ruby and C#.
 
 Uses: TypeScript, Python, Rust, Go, PHP, Ruby, C#, GitHub Actions.
 
-- 125,000+ total downloads ([npm-stat](https://npm-stat.com/charts.html?package=emoji-mixer))
-- 1,221 dependent repositories on GitHub
+- 128,000+ total downloads
+- 1,225 dependent repositories on GitHub
 - 619 base emojis, 330,640 valid combinations
-- Compact compatibility data is 2.9MB (OG was 96MB!), shared by all nine packages
+- Compact compatibility data is 2.9MB (OG was 96MB!)
 - Every package is tested against the same cases and published from one release workflow
 
 ### LogEye
@@ -148,7 +148,7 @@ no debugger and no instrumentation of the target code beyond a decorator.
 
 Uses: Python 3.8+, sys.settrace introspection.
 
-- 10,000+ PyPI downloads
+- 11,000+ PyPI downloads
 - ~5,600 lines across 12 modules, with 21 test modules and 10 demos, tested on Python 3.8 to 3.14 on Linux, macOS and
   Windows
 - Educational mode rewrites output into plain sentences for teaching
