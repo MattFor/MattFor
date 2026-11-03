@@ -9,7 +9,6 @@
 
 </div>
 
-
 <div align="center">
 
 <img src="https://icon-marquee.giann.dev/v1/marquee?i=c,cpp,rust,js,py,ts,nodejs,discordjs,mongodb,fastify,html,css,opengl,sdl,bash,linux,voidlinux,raspberrypi,podman,git&width=800" alt="C, C++, Rust, JavaScript, Python, TypeScript, Node.js, discord.js, MongoDB, Fastify, HTML, CSS, OpenGL, SDL, Bash, Linux, Void Linux, Raspberry Pi, Podman, Git" />
@@ -97,10 +96,18 @@ Uses: HTML, CSS, JavaScript.
 
 The scripts and services that ensure maximum possible uptime. Written for runit on Void.
 
-Uses: Node.js, POSIX shell scripts, nftables, runit.
+Uses: Node.js, Python, POSIX shell scripts, nftables, runit, unbound, AdGuard Home, Podman, bubblewrap.
 
 - Probes 24 services on a ten-second loop and publishes three JSON feeds (one full, one public, one status)
-- Hardware watchdog that pets `/dev/watchdog`, so the Pi reboots automatically on a deadlock
+- Bot failover: a MongoDB lease keeps exactly one bot running, on the Pi when it can, otherwise on my PC or laptop;
+  about 30 s without a bot per switch
+- Network monitor that checks every hop from the Ethernet link to Discord every 15 s and names whose fault an outage
+  is, with 90 days of history
+- Home DNS fallback: AdGuard is supervised, and if it goes silent LAN queries are redirected to unbound within seconds
+- Isolation so a break-in to one service stays in that service: per-container user IDs, network fences, root-owned
+  root code
+- Hardware watchdog that pets `/dev/watchdog` and heals the Ethernet link, so the Pi reboots automatically on a
+  deadlock; boot-time fsck repairs the disks unattended
 - An uptime ledger with day buckets, incident detection and cause inference, mirrored into a Discord outages channel
 - `incident` CLI tool for declaring and annotating outages
 - Scripts to keep sshd at the top of the CPU, IO and OOM priority lists, with a self-contained nftables table putting
@@ -108,7 +115,7 @@ Uses: Node.js, POSIX shell scripts, nftables, runit.
 - error pages generated from the dashboard's own CSS, so I don't have to write new ones by hand every time I change
   something
 
-[![source](https://img.shields.io/badge/source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MattFor/relaxy-additions)
+Source has been privated... Too many security risks keeping it open - sorry!
 
 </details>
 
