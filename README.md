@@ -137,7 +137,7 @@ JSR), Python, Rust, Go, PHP, Ruby and C#.
 
 Uses: TypeScript, Python, Rust, Go, PHP, Ruby, C#, GitHub Actions.
 
-- 128,000+ total downloads
+- 130,000+ total downloads
 - 1,225 dependent repositories on GitHub
 - 619 base emojis, 330,640 valid combinations
 - Compact compatibility data is 2.9MB (OG was 96MB!)
@@ -163,7 +163,7 @@ Uses: Python 3.8+, sys.settrace introspection.
 
 ### Lexiglance
 
-[![AppImageHub](https://img.shields.io/badge/AppImageHub-listed-0e75b6?style=flat-square&logo=linux&logoColor=white)](https://appimage.github.io/lexiglance/)
+[![AppImageHub](https://img.shields.io/badge/AppImageHub-listed-0e75b6?style=flat-square&logo=linux&logoColor=white)](https://appimage.github.io/Lexiglance/)
 [![Release](https://img.shields.io/github/v/release/MattFor/lexiglance?style=flat-square&color=3775A9)](https://github.com/MattFor/lexiglance/releases)
 [![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/lexiglance/blob/master/LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/MattFor/lexiglance/ci.yml?style=flat-square&label=CI&logo=githubactions&logoColor=white)](https://github.com/MattFor/lexiglance/actions/workflows/ci.yml)
@@ -179,7 +179,7 @@ Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
 - Reads text through accessibility interfaces, or with OCR in games, images and videos
 - Dictionaries compiled into memory-mapped indexes
 - Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
-- Listed in the official [AppImageHub](https://appimage.github.io/lexiglance/) catalog
+- Listed in the official [AppImageHub](https://appimage.github.io/Lexiglance/) catalog
 
 ### Simple Project Tracker
 
