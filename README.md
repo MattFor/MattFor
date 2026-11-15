@@ -1,11 +1,14 @@
 <div align="center">
 
+# MattFor
+
 [![Website](https://img.shields.io/badge/mattfor.com-cc056b?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y%2BmAAAAP1BMVEUMDAcqKxhMTCw%2FQCU6OyIfIRMgHxGnpl7FxHTHxna5uGyxsGSzsmmUlFRnZzt4eEXGxXXHxnLAv22gn1rAwHHY7KVrAAABbUlEQVQoz32T0ZbDIAhEgRJpUIxW%2F%2F9bdzRtd592HjzGiyMoIfpXLB89lPmA0i2wZE%2FoPNfoZtkLlJci0ZHPj6wyS9xzxOe%2F0IXSQSm2CfQHPs%2BgI8qVDgNtrX1gh07AiqBKYuXV2vm2ba2vvYPkuUYkySrRbEGwEvUaU6h6EdIqstb3zjZDV71hSqrE1p6vSMk27KsgYeJSVi2GZFqvNDaEneRWlKL36Ss5wKDY0JJ6b%2F0i2XtueH3hY2ItSOYXtvqGrgmGOKX2r3DUDWHB9aoJIe7zDR8fOOt%2BnuohXG2ZtpemO1sEohgZ7drPa2un86dOuGiyXpiqoazlXN7Q5pyuXPpI4t2YJHzmY1UB6O5FtXgAemZYVze83AAcaIy8oPERIcg8aRmJ84boGWPNuNmdUBRli6Srh1Kgl8YhlrNdohWfchiu64ZmCBT7lR4DF20bjrHmGEfEHnE2mmUAEqsqU9JfYQ1dqPz%2Fz%2FADs7MZxJrLqYgAAAAASUVORK5CYII%3D)](https://mattfor.com)
 
 [![Email](https://img.shields.io/badge/mattfor%40relaxy.xyz-a02074?style=flat-square&logo=maildotru&logoColor=white)](mailto:mattfor@relaxy.xyz)
 [![Codeberg](https://img.shields.io/badge/codeberg-733b7d?style=flat-square&logo=codeberg&logoColor=white)](https://codeberg.org/MattFor)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-support-465686?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/mattfor)
 [![Profile views](https://komarev.com/ghpvc/?username=mattfor&label=Profile%20views&color=1a718f&style=flat-square)](https://github.com/MattFor)
+[![License: MIT](https://img.shields.io/badge/license-MIT-008c98?style=flat-square)](LICENSE)
 
 </div>
 
@@ -15,7 +18,8 @@
 
 </div>
 
-I write things that people use.  
+I write things that people use.
+
 C, C++ and Rust are my preferred languages; JavaScript and Python are the ones I use most and know best. Currently
 studying in university.
 
@@ -24,9 +28,11 @@ Everything below is built and maintained in my free time.
 
 ---
 
-## My Best projects
+## Features
 
-### Relaxy! Ecosystem
+### My Best projects
+
+#### Relaxy! Ecosystem
 
 Everything `relaxy.xyz` related: the bot, the dashboard, the website and the supplementary services.  
 A RaspberryPi hosts everything isolated under Podman and bubblewrap.
@@ -67,11 +73,11 @@ node-canvas, ffmpeg, tesseract-ocr.
 <summary><b>Relaxy! Dashboard</b></summary>
 
 Web dashboard for the bot. Discord OAuth login, three access tiers computed from the OAuth guilds permission bitfield.
-Has per-user profile customization as well.
+Has per-user profile customisation as well.
 
 Uses: Fastify, the native MongoDB driver, JavaScript, esbuild.
 
-- Discord OAuth-based access control with three permission tiers, per-request authorization checks, per-session CSRF
+- Discord OAuth-based access control with three permission tiers, per-request authorisation checks, per-session CSRF
   protection and a strict list of modifiable fields
 
 </details>
@@ -119,7 +125,7 @@ Source has been privated... Too many security risks keeping it open - sorry!
 
 </details>
 
-### Emoji Mixer
+#### Emoji Mixer
 
 [![npm](https://img.shields.io/npm/v/emoji-mixer?style=flat-square&color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/emoji-mixer)
 [![PyPI](https://img.shields.io/pypi/v/emoji-mixer?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/emoji-mixer/)
@@ -143,7 +149,7 @@ Uses: TypeScript, Python, Rust, Go, PHP, Ruby, C#, GitHub Actions.
 - Compact compatibility data is 2.9MB (OG was 96MB!)
 - Every package is tested against the same cases and published from one release workflow
 
-### LogEye
+#### LogEye
 
 [![PyPI](https://img.shields.io/pypi/v/logeye?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/logeye/)
 [![Python](https://img.shields.io/pypi/pyversions/logeye?style=flat-square&color=0e75b6)](https://pypi.org/project/logeye/)
@@ -161,7 +167,7 @@ Uses: Python 3.8+, sys.settrace introspection.
 - Educational mode rewrites output into plain sentences for teaching
 - Tracks locals, attribute writes, container mutations, arguments and return values
 
-### Lexiglance
+#### Lexiglance
 
 [![AppImageHub](https://img.shields.io/badge/AppImageHub-listed-0e75b6?style=flat-square&logo=linux&logoColor=white)](https://appimage.github.io/Lexiglance/)
 [![Release](https://img.shields.io/github/v/release/MattFor/lexiglance?style=flat-square&color=3775A9)](https://github.com/MattFor/lexiglance/releases)
@@ -179,9 +185,9 @@ Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
 - Reads text through accessibility interfaces, or with OCR in games, images and videos
 - Dictionaries compiled into memory-mapped indexes
 - Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
-- Listed in the official [AppImageHub](https://appimage.github.io/Lexiglance/) catalog
+- Listed in the official [AppImageHub](https://appimage.github.io/Lexiglance/) catalogue
 
-### Simple Project Tracker
+#### Simple Project Tracker
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-3775A9?style=flat-square&logo=python&logoColor=white)](https://github.com/MattFor/simple-project-tracker)
 [![License](https://img.shields.io/badge/license-MIT-0e75b6?style=flat-square)](https://github.com/MattFor/simple-project-tracker/blob/master/LICENSE)
@@ -202,7 +208,7 @@ Uses: Python 3.11+.
 
 ---
 
-## Other projects
+### Other projects
 
 - [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file
   integrity hashing and INI-driven configuration. Still work in progress!
@@ -216,7 +222,7 @@ Uses: Python 3.11+.
   a mouse button, or record yourself and hear it straight back.
 - [discord-profile-studio](https://github.com/MattFor/discord-profile-studio) (Python, Tkinter) - Designer for Discord
   Rich Presence and profile widgets with a live preview. Still work in progress!
-- [hprint](https://github.com/MattFor/hprint) (C++23) - Header-only utility for centered terminal headers. Unicode 16
+- [hprint](https://github.com/MattFor/hprint) (C++23) - Header-only utility for centred terminal headers. Unicode 16
   aware widths (emoji sequences, combining marks, escape codes), UTF-8 borders, any output stream, usable at compile
   time.
 - [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past
@@ -254,7 +260,7 @@ Uses: Python 3.11+.
 <details>
 <summary><b>Archive</b> - University work and older projects</summary>
 
-#### University
+##### University
 
 - [university-coursework](https://github.com/MattFor/university-coursework) (C, C++, Python, Jupyter) - Everything from
   my Computer Science degree, organised by semester.
@@ -268,7 +274,7 @@ Uses: Python 3.11+.
 - [numerical-methods-labs](https://github.com/MattFor/numerical-methods-labs) (C++) - Numerical methods lab programs.
 - [university-dotnet](https://github.com/MattFor/university-dotnet) (C#) - Every exercise from the .NET class.
 
-#### Older projects
+##### Older projects
 
 - [relaxy-public-v1](https://github.com/MattFor/relaxy-public-v1) (JavaScript) - The first stripped-down showcase of the
   bot, from 2023. Superseded by [relaxy-public-v2](https://github.com/MattFor/relaxy-public-v2).
@@ -289,13 +295,15 @@ Mirrors of my repositories are also available on [codeberg.org/MattFor](https://
 
 ---
 
-## Contact
+## Contributing
+
+### Contact
 
 - Discord: mattfor
 - Email: mattfor@relaxy.xyz
 - Website: https://mattfor.com
 
-## Community
+### Community
 
 I'm a community manager for [Fancy Games](https://store.steampowered.com/publisher/fancy),
 overseeing [Escape The Backrooms](https://store.steampowered.com/app/1943950/Escape_the_Backrooms/) since 2023. Join
@@ -319,3 +327,7 @@ organisation [GitHub](https://github.com/EscapeTheBackroomsCommunity) | [Codeber
   their speedrun.com profile and the bot keeps their roles up to date.
 
 </details>
+
+## License
+
+MIT, see [LICENSE](LICENSE). By [MattFor](https://github.com/MattFor).
