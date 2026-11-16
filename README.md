@@ -44,7 +44,7 @@ A RaspberryPi hosts everything isolated under Podman and bubblewrap.
 [![cdn](https://img.shields.io/badge/cdn-0e75b6?style=flat-square)](https://cdn.relaxy.xyz)
 ![|](https://img.shields.io/badge/-6e7681?style=flat)
 [![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frelaxy.xyz%2Fstatus.json&query=%24.bot.totalUsers&label=users&style=flat-square&color=2ea043)](https://uptime.relaxy.xyz)
-[![lines of code](https://img.shields.io/badge/LOC-~250k-0e75b6?style=flat-square)](https://github.com/MattFor/relaxy-public-v2)
+[![lines of code](https://img.shields.io/badge/LOC-~320k-0e75b6?style=flat-square)](https://github.com/MattFor/relaxy-public-v2)
 
 <details>
 <summary><b>Relaxy! Discord Bot</b></summary>
@@ -104,11 +104,13 @@ The scripts and services that ensure maximum possible uptime. Written for runit 
 
 Uses: Node.js, Python, POSIX shell scripts, nftables, runit, unbound, AdGuard Home, Podman, bubblewrap.
 
-- Probes 24 services on a ten-second loop and publishes three JSON feeds (one full, one public, one status)
+- Probes 25 services on a ten-second loop and publishes three JSON feeds (one full, one public, one status)
 - Bot failover: a MongoDB lease keeps exactly one bot running, on the Pi when it can, otherwise on my PC or laptop;
   about 30 s without a bot per switch
 - Network monitor that checks every hop from the Ethernet link to Discord every 15 s and names whose fault an outage
   is, with 90 days of history
+- internet.mattfor.com: an easy view for my family (is the internet working, whose fault is it, what to do) and a full
+  one for me, open at home and behind a WebAuthn passkey anywhere else
 - Home DNS fallback: AdGuard is supervised, and if it goes silent LAN queries are redirected to unbound within seconds
 - Isolation so a break-in to one service stays in that service: per-container user IDs, network fences, root-owned
   root code
@@ -118,6 +120,7 @@ Uses: Node.js, Python, POSIX shell scripts, nftables, runit, unbound, AdGuard Ho
 - `incident` CLI tool for declaring and annotating outages
 - Scripts to keep sshd at the top of the CPU, IO and OOM priority lists, with a self-contained nftables table putting
   SSH in band 0 at DSCP CS6 to ensure the Pi stays reachable while it is dying
+- SSH status page split into a root collector with no network input and an unprivileged web half
 - error pages generated from the dashboard's own CSS, so I don't have to write new ones by hand every time I change
   something
 
@@ -179,12 +182,15 @@ System-wide pop-up dictionary for Linux (X11) and Windows.
 Hold a key combination and point at a word in any
 application to see its definitions. Same dict format as [Yomitan](https://yomitan.wiki/).
 
-Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR and Tesseract.
+Uses: C++26, Qt, AT-SPI / UI Automation, PaddleOCR, Tesseract, ONNX Runtime and OPUS-MT.
 
 - Japanese, Russian, Ukrainian, Korean and Greek, with deinflection (食べさせられなかった finds 食べる)
 - Reads text through accessibility interfaces, or with OCR in games, images and videos
+- Whole sentences translated into English offline, so nothing you read leaves your computer
 - Dictionaries compiled into memory-mapped indexes
 - Pronunciation audio, Anki cards through AnkiConnect, and configurable popup themes
+- Updates itself, has a health check with one-click fixes, and keeps lookup statistics locally
+- No input injection or access to other processes, so it is safe to use alongside anti-cheats
 - Listed in the official [AppImageHub](https://appimage.github.io/Lexiglance/) catalogue
 
 #### Simple Project Tracker
@@ -199,9 +205,12 @@ update daemon.
 
 Uses: Python 3.11+.
 
-- ~11,600 lines across 45 modules, with 23 test modules
-- 15 commands, each with aliases and a fused short version
+- ~11,600 lines across 46 modules, with 23 test modules
+- 19 commands, with aliases and fused short forms (`t 12 es blocked`)
 - Frecency-based name resolution
+- A separate todo list whose notes can point at projects with `@name`
+- The database can live in a Syncthing, Dropbox or git folder, with per-machine path roots, and `doctor`/`fix` merge
+  projects tracked twice
 - Undoable edits, tui, a background daemon, shell completion for bash, zsh and fish, and a `man` page
 - Selected for the [XERJ](https://github.com/xerj-org/xerj) Corpus Hub of reference code
   solutions for coding agents
@@ -210,8 +219,12 @@ Uses: Python 3.11+.
 
 ### Other projects
 
-- [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning, file
-  integrity hashing and INI-driven configuration. Still work in progress!
+- [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning across
+  Linux and Windows memory maps, a Windows packet monitor that injects a DLL to hook `send`/`recv` and validate the
+  traffic, file integrity hashing and INI-driven configuration.
+- [moodle-mcp](https://github.com/MattFor/moodle-mcp) (Python) - MCP server that lets AI agents use a Moodle account:
+  courses, deadlines, grades, files and homework submissions. Reading and changing are separate tools, so every change
+  can wait for your approval. Standard library only.
 - [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von
   Neumann architecture simulator with a native GUI.
 - [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Python, Shell, X11) - Scripts and config that make
