@@ -209,8 +209,6 @@ Uses: Python 3.11+.
 - Selected for the [XERJ](https://github.com/xerj-org/xerj) Corpus Hub of reference code
   solutions for coding agents
 
----
-
 ## Other projects
 
 - [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning across
@@ -299,8 +297,6 @@ Uses: Python 3.11+.
 </details>
 
 Mirrors of my repositories are also available on [codeberg.org/MattFor](https://codeberg.org/MattFor).
-
----
 
 ## Contact
 
