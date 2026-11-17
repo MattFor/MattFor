@@ -211,34 +211,42 @@ Uses: Python 3.11+.
 
 ## Other projects
 
+<details>
+<summary><b>Smaller projects</b> - Tools, libraries and utilities</summary>
+
 - [abba](https://github.com/MattFor/abba) (C++26) - Arbitrary Binary Behavioural Anticheat. Memory scanning across
   Linux and Windows memory maps, a Windows packet monitor that injects a DLL to hook `send`/`recv` and validate the
   traffic, file integrity hashing and INI-driven configuration.
 - [moodle-mcp](https://github.com/MattFor/moodle-mcp) (Python) - MCP server that lets AI agents use a Moodle account:
   courses, deadlines, grades, files and homework submissions. Reading and changing are separate tools, so every change
   can wait for your approval. Standard library only.
-- [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von
-  Neumann architecture simulator with a native GUI.
-- [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Python, Shell, X11) - Scripts and config that make
-  Japanese input under IBus and Mozc work on a keyboard without dedicated JP keys.
-- [xfce-tiler](https://github.com/MattFor/xfce-tiler) (Python, X11) - Quadrant, half and directional window tiling for
-  XFCE and xfwm4.
-- [x11-mic-monitor](https://github.com/MattFor/x11-mic-monitor) (Python, X11, PipeWire) - Hear your own microphone on
-  a mouse button, or record yourself and hear it straight back.
-- [discord-profile-studio](https://github.com/MattFor/discord-profile-studio) (Python, Tkinter) - Designer for Discord
-  Rich Presence and profile widgets with a live preview. Still work in progress!
+- [agent-top](https://github.com/MattFor/agent-top) (Python, X11) - Super+Z popup listing the Claude Code, Codex,
+  Copilot, Cursor and local model sessions open right now, with their subagents, token use and plan limits. Enter jumps
+  to the session's tmux pane or window.
 - [hprint](https://github.com/MattFor/hprint) (C++23) - Header-only utility for centred terminal headers. Unicode 16
   aware widths (emoji sequences, combining marks, escape codes), UTF-8 borders, any output stream, usable at compile
   time.
-- [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past
-  the 2047-character limit, with backups and a check against other programs' changes before saving.
+- [von-neumann-machine-simulator](https://github.com/MattFor/von-neumann-machine-simulator) (Rust, egui/eframe) - Von
+  Neumann architecture simulator with a native GUI.
+- [xfce-tiler](https://github.com/MattFor/xfce-tiler) (Python, X11) - Quadrant, half and directional window tiling for
+  XFCE and xfwm4.
 - [mood](https://github.com/MattFor/mood) (Rust, ratatui) - Log 0-10 mood scores with reasons from the terminal, then
   review them as terminal charts or PNG graphs.
-- [download-favourite-discord-gifs](https://github.com/MattFor/download-favourite-discord-gifs) (Python) - Downloads
-  exported Discord favourite GIFs, converts to correct formats with magic byte detection.
+- [ibus-mozc-system](https://github.com/MattFor/ibus-mozc-system) (Python, Shell, X11) - Scripts and config that make
+  Japanese input under IBus and Mozc work on a keyboard without dedicated JP keys.
+- [x11-mic-monitor](https://github.com/MattFor/x11-mic-monitor) (Python, X11, PipeWire) - Hear your own microphone on
+  a mouse button, or record yourself and hear it straight back.
+- [path-variable-editor](https://github.com/MattFor/path-variable-editor) (Python) - Windows PATH editor that works past
+  the 2047-character limit, with backups and a check against other programs' changes before saving.
 - [raytracer](https://github.com/MattFor/raytracer) (C++) - Ray tracer following Ray Tracing in One Weekend.
+- [discord-profile-studio](https://github.com/MattFor/discord-profile-studio) (Python, Tkinter) - Designer for Discord
+  Rich Presence and profile widgets with a live preview. Still work in progress!
 - [libstrangle-dlsym-fix](https://github.com/MattFor/libstrangle-dlsym-fix) (C) - Fork of milaq's libstrangle with the
   `__libc_dlsym` lookup error corrected making OpenGL work again on latest glibc.
+- [download-favourite-discord-gifs](https://github.com/MattFor/download-favourite-discord-gifs) (Python) - Downloads
+  exported Discord favourite GIFs, converts to correct formats with magic byte detection.
+
+</details>
 
 <details>
 <summary><b>Unreleased</b> - Projects which will probably never see the light of day</summary>
